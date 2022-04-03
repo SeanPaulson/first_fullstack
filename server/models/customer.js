@@ -33,9 +33,8 @@ function validateCustomer(customer) {
       name: Joi.string().min(2).max(50).required(),
       email: Joi.string().email().min(2).max(50),
       phone: Joi.string().min(2).max(50),
+      address: Joi.string().min(2).max(50),
     });
-    
-    
     return schema.validate(customer);
   }
 
