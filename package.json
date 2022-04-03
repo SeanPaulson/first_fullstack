@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/P-Pimentinha/first_fullstack#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.9"
   }
 }
